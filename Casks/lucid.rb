@@ -5,10 +5,7 @@ cask "lucid" do
   # TODO(release): bump on every Lucid release. Must match MARKETING_VERSION
   # in Lucid.xcodeproj exactly (release.sh enforces this on the producer side).
   version "1.0"
-  # TODO(release): replace with `shasum -a 256 dist/Lucid-#{version}.dmg`
-  # output before tagging the release. `:no_check` is a scaffold placeholder
-  # ONLY — never ship a real release with it set.
-  sha256 :no_check
+  sha256 "71a9195a2e17d217595fcae2b377a95ee835d6f9fb9123ce4037be367e58215d"
 
   url "https://dl.lucidmac.app/releases/Lucid-#{version}.dmg"
   name "Lucid"
