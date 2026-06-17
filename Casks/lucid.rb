@@ -2,10 +2,11 @@
 # frozen_string_literal: true
 
 cask "lucid" do
-  # TODO(release): bump on every Lucid release. Must match MARKETING_VERSION
-  # in Lucid.xcodeproj exactly (release.sh enforces this on the producer side).
-  version "1.0"
-  sha256 "cb6344d1c8b8052c7869549b86c1762911eb728b86c28671ceac10805b4024c5"
+  # Bumped automatically on every release by the Lucid repo's CI
+  # (scripts/update-homebrew-cask.sh). Must match MARKETING_VERSION in
+  # Lucid.xcodeproj exactly (release.sh enforces this on the producer side).
+  version "1.3.0"
+  sha256 "4d60026d37071982d38bdb245a29384d23dbf2491a665dc073352ccc2613ff7e"
 
   url "https://dl.lucidmac.app/releases/Lucid-#{version}.dmg"
   name "Lucid"
@@ -20,7 +21,7 @@ cask "lucid" do
   # Sparkle handles in-app updates. `auto_updates true` tells Homebrew not to
   # treat a Sparkle-upgraded build as outdated relative to the cask's version.
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Lucid.app"
 

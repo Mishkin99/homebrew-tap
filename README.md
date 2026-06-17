@@ -6,7 +6,7 @@ Homebrew Tap maintained by [@Mishkin99](https://github.com/Mishkin99).
 
 | Cask | Description | Status |
 |------|-------------|--------|
-| `lucid` | macOS menu bar utility that blocks all input while you clean your Mac | Pre-release — see note below |
+| `lucid` | macOS menu bar utility that blocks all input while you clean your Mac | Live |
 
 ## Install
 
@@ -42,7 +42,8 @@ brew uninstall --cask --zap lucid     # also wipe preferences, caches, app suppo
 
 ## Status
 
-The `lucid` cask in this repository is a **scaffold**. It will become installable once Lucid 1.0 ships and the cask's `version` / `sha256` are filled in by CI. Until then, attempting to `brew install --cask lucid` will fail.
+The `lucid` cask is **live and installable**. Its `version` / `sha256` are kept in
+sync with each Lucid release automatically by the Lucid repo's CI.
 
 ## License
 
