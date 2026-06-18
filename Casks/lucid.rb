@@ -5,8 +5,8 @@ cask "lucid" do
   # Bumped automatically on every release by the Lucid repo's CI
   # (scripts/update-homebrew-cask.sh). Must match MARKETING_VERSION in
   # Lucid.xcodeproj exactly (release.sh enforces this on the producer side).
-  version "1.3.0"
-  sha256 "4d60026d37071982d38bdb245a29384d23dbf2491a665dc073352ccc2613ff7e"
+  version "1.3.1"
+  sha256 "2749cd72853b3583bb5aa15fd80b6610eb7acaaef2a038fae4621654fc347ede"
 
   url "https://dl.lucidmac.app/releases/Lucid-#{version}.dmg"
   name "Lucid"
