@@ -10,7 +10,7 @@ cask "lucid" do
 
   url "https://dl.lucidmac.app/releases/Lucid-#{version}.dmg"
   name "Lucid"
-  desc "Menu bar utility that blocks input during keyboard or trackpad cleaning"
+  desc "Cleaning companion that fully locks input and lights up every smudge"
   homepage "https://lucidmac.app/"
 
   livecheck do
